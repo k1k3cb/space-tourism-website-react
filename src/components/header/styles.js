@@ -5,10 +5,15 @@ export const StyledHeader = styled.header`
 	display: flex;
 	margin-top: 40px;
 	position: absolute;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1440px;
 `;
 export const StyledLogoContainer = styled.div`
 	display: flex;
 	align-items: center;
+	margin-left: 50px;
+
 	/* position: absolute;
     left: 83px;
     z-index: 8; */

@@ -1,3 +1,5 @@
+import { v4 } from 'uuid';
+
 const LAUNCH = {
 	title: 'LAUNCH VEHICLE',
 	text: "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
@@ -17,3 +19,9 @@ const SPACE_CAPSULE = {
 };
 
 export const TECHNOLOGY = [LAUNCH, SPACEPORT, SPACE_CAPSULE];
+
+export const TECHNOLOGY_TABS = [
+	{ id: v4(), text: '1' },
+	{ id: v4(), text: '2 ' },
+	{ id: v4(), text: '3' }
+];

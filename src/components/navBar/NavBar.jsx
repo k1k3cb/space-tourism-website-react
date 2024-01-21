@@ -1,6 +1,5 @@
-import { NavLink } from 'react-router-dom';
 import { MENU } from '../../constants/menu';
-import { StyledNav, StyledSpan, StyledUl } from './styles';
+import { StyledNav, StyledNavLink, StyledSpan, StyledUl } from './styles';
 
 const NavBar = () => {
 	return (
@@ -11,7 +10,9 @@ const NavBar = () => {
 					return (
 						<li key={menuItem.id}>
 							<StyledSpan>{menuItem.number}</StyledSpan>
-							<NavLink to={menuItem.path}>{menuItem.name}</NavLink>
+							<StyledNavLink to={menuItem.path} active='active'>
+								{menuItem.name}
+							</StyledNavLink>
 						</li>
 					);
 				})}

@@ -1,3 +1,5 @@
+import { v4 } from 'uuid';
+
 const MOON = {
 	name: 'MOON',
 	text: 'See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.',
@@ -39,3 +41,10 @@ const TITAN = {
 };
 
 export const DESTINATION = [MOON, MARS, EUROPA, TITAN];
+
+export const DESTINATION_TABS = [
+	{ id: v4(), text: 'MOON' },
+	{ id: v4(), text: 'MARS ' },
+	{ id: v4(), text: 'EUROPA' },
+	{ id: v4(), text: 'TITAN' }
+];

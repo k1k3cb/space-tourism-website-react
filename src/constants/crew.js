@@ -1,3 +1,5 @@
+import { v4 } from 'uuid';
+
 const DOUGLAS = {
 	title: 'COMMANDER',
 	name: 'DOUGLAS HURLEY',
@@ -27,3 +29,10 @@ const ANOUSHES = {
 };
 
 export const CREW = [DOUGLAS, MARK, VICTOR, ANOUSHES];
+
+export const CREW_TABS = [
+	{ id: v4(), text: '1' },
+	{ id: v4(), text: ' 2' },
+	{ id: v4(), text: '3' },
+	{ id: v4(), text: '4' }
+];

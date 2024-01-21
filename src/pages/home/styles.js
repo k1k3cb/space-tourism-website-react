@@ -54,4 +54,10 @@ export const StyledExplore = styled.h4`
 	justify-content: center;
 	margin-right: 160px;
 	margin-top: 300px;
+	transition: all 0.8s ease;
+
+	&:hover {
+		border-radius: 50%;
+		box-shadow: 0 0 0 60px ${COLORS.secondary}77;
+	}
 `;

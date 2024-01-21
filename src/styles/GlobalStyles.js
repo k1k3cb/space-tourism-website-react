@@ -13,8 +13,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   body{
-    margin: 0;
-    font-family: sans-serif;
+    margin: 0;    
+    max-width: 1440px;
+    margin-inline: auto;
     
   }
 
