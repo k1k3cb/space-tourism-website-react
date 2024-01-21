@@ -5,6 +5,8 @@ import {
 	StyledFooterTitle,
 	StyledLeftCol,
 	StyledRightCol,
+	StyledSectionTitle,
+	StyledSectionTitleSpan,
 	StyledText,
 	StyledTitle
 } from './styles';
@@ -18,9 +20,9 @@ const Destination = () => {
 	return (
 		<StyledContainer>
 			<StyledLeftCol>
-				<h2>
-					<span>01</span> PICK YOUR DESTINATION
-				</h2>
+				<StyledSectionTitle>
+					<StyledSectionTitleSpan>01</StyledSectionTitleSpan> PICK YOUR DESTINATION
+				</StyledSectionTitle>
 				<img src={DESTINATION[activeTab].image} alt='' />
 			</StyledLeftCol>
 			<StyledRightCol>

@@ -13,10 +13,10 @@ export const StyledContainer = styled.div`
 	padding-inline: 150px;
 `;
 export const StyledLeftCol = styled.div`
-	flex: 50%;
+	flex: 70%;
 `;
 export const StyledRightCol = styled.div`
-	flex: 50%;
+	flex: 40%;
 `;
 
 export const StyledTitle = styled.h2`
@@ -26,7 +26,22 @@ export const StyledTitle = styled.h2`
 	font-weight: 400;
 	margin-block: 40px;
 `;
+export const StyledSectionTitle = styled.h2`
+	color: #fff;
+	font-family: 'Barlow Condensed';
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 4.725px;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+`;
 
+export const StyledSectionTitleSpan = styled.span`
+	opacity: 0.25;
+	margin-right: 24px;
+`;
 export const StyledText = styled.p`
 	color: ${COLORS.primary};
 	width: 444px;
@@ -36,7 +51,7 @@ export const StyledText = styled.p`
 	font-weight: 400;
 	line-height: 32px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #383B4B;
+	border-bottom: 1px solid #383b4b;
 `;
 
 export const StyledFooterDiv = styled.div`

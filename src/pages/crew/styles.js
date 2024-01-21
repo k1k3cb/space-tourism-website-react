@@ -27,7 +27,7 @@ export const StyledSectionTitle = styled.h2`
 	line-height: normal;
 	letter-spacing: 4.725px;
 	text-transform: uppercase;
-	margin-bottom: 120px;
+	margin-bottom: 170px;
 `;
 
 export const StyledSectionTitleSpan = styled.span`
