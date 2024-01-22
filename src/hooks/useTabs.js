@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const useTabs = tabs => {
+const useTabs = () => {
 	const [activeTab, setActiveTab] = useState(0);
 
 	const handleTabActive = tabIndex => {
@@ -10,8 +10,7 @@ const useTabs = tabs => {
 
 	return {
 		activeTab,
-		handleTabActive,
-		tabs
+		handleTabActive
 	};
 };
 
